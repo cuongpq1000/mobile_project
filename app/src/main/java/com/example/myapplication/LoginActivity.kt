@@ -24,6 +24,7 @@ class LoginActivity : AppCompatActivity() {
 
     //Firebase Authentication
     private lateinit var firebaseAuth: FirebaseAuth
+    private var count = 0
     private var email = ""
     private var password = ""
 
@@ -45,6 +46,7 @@ class LoginActivity : AppCompatActivity() {
         //firebase authentication init
         firebaseAuth = FirebaseAuth.getInstance()
         checkUser()
+
 
         //handle registering button
         binding.noAccountTv.setOnClickListener {
@@ -99,9 +101,9 @@ class LoginActivity : AppCompatActivity() {
         //get current user
         val firebaseUser = firebaseAuth.currentUser
         //if user is already logged in
-        if(firebaseUser != null){
-            startActivity(Intent(this, ProfileActivity::class.java))
-            finish()
-        }
+//        if(firebaseUser != null){
+//            startActivity(Intent(this, ProfileActivity::class.java))
+//            finish()
+//        }
     }
 }

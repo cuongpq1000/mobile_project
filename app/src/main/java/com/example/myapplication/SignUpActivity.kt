@@ -10,6 +10,8 @@ import android.widget.Toast
 import androidx.appcompat.app.ActionBar
 import com.example.myapplication.databinding.ActivitySignUpBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 
 class SignUpActivity : AppCompatActivity() {
     //ViewBinding
@@ -23,8 +25,14 @@ class SignUpActivity : AppCompatActivity() {
 
     //FirebaseAuth
     private lateinit var firebaseAuth: FirebaseAuth
+
+    //Firebase Database
+    private lateinit var database: DatabaseReference
+
     private var email = ""
     private var password = ""
+    private var firstName = ""
+    private var lastName = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -58,6 +66,13 @@ class SignUpActivity : AppCompatActivity() {
         //get data
         email = binding.emailEt.text.toString().trim()
         password = binding.passwordEt.text.toString().trim()
+        firstName = binding.firstNameEt.text.toString().trim()
+        lastName = binding.lastNameEt.text.toString().trim()
+
+        //export to database
+        database = FirebaseDatabase.getInstance().getReference("Users")
+        val user = User(firstName, lastName, email)
+        database.child(firstName).setValue(user)
 
         //validate data
         if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
@@ -89,7 +104,7 @@ class SignUpActivity : AppCompatActivity() {
             Toast.makeText(this, "Account created with email $email", Toast.LENGTH_SHORT).show()
 
             //open profile
-            startActivity(Intent(this, ProfileActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }.addOnFailureListener{e->
             progressDialog.dismiss()

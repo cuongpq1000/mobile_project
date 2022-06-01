@@ -12,6 +12,10 @@ drawable ic_launcher_foreground
 id emailEt
 id emailTil
 id emailTv
+id firstNameEt
+id firstNameTil
+id lastNameEt
+id lastNameTil
 id loginBtn
 id logoutBtn
 id noAccountTv
