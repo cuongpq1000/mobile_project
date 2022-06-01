@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapplication.app-mergeDebugResources-19:/values-v24/values-v24.xml",
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-23:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\LongL\\.gradle\\caches\\transforms-3\\821b85c962f1f9026ce945ffd8fc79ed\\transformed\\appcompat-1.3.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Long\\.gradle\\caches\\transforms-3\\674aaccf2088ec4facd45123636116de\\transformed\\appcompat-1.3.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
