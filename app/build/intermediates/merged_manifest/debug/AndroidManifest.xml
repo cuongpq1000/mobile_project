@@ -25,14 +25,23 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
+
+        <!-- <activity -->
+        <!-- android:name=".splashScreenActivity" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="@string/title_activity_splash_screen" -->
+        <!-- android:theme="@style/Theme.MyApplication.NoActionBar" /> -->
         <activity
             android:name="com.example.myapplication.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.LoginActivity"
             android:exported="false" />
         <activity
             android:name="com.example.myapplication.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.myapplication.LoginActivity"
+            android:name="com.example.myapplication.splashScreenActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

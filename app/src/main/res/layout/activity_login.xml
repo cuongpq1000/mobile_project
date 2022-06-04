@@ -9,19 +9,19 @@
 
     <TextView
         android:id="@+id/titleLabelTv"
+        style="@style/TextAppearance.MaterialComponents.Headline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Login"
-        style="@style/TextAppearance.MaterialComponents.Headline4" />
+        android:text="Login" />
 
     <TextView
+        style="@style/TextAppearance.MaterialComponents.Caption"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="Login to your Account"
         android:layout_below="@+id/titleLabelTv"
-        style="@style/TextAppearance.MaterialComponents.Caption" />
+        android:layout_centerHorizontal="true"
+        android:text="Login to your Account" />
 
     <!--Email-->
     <com.google.android.material.textfield.TextInputLayout
