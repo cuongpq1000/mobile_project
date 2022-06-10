@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:padding="20dp"
     tools:context=".LoginActivity">
 
@@ -13,6 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:textColor="#fff"
         android:text="Login" />
 
     <TextView
@@ -21,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/titleLabelTv"
         android:layout_centerHorizontal="true"
+        android:textColor="#fff"
         android:text="Login to your Account" />
 
     <!--Email-->
@@ -33,6 +36,7 @@
 
         <EditText
             android:id="@+id/emailEt"
+            android:ems="10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
@@ -65,7 +69,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/passwordTil"
         android:layout_marginTop="10dp"
-        android:text="Login" />
+        android:text="Login"
+        android:textColor="@android:color/black"
+        app:backgroundTint="#D0D0D0" />
 
     <!--Sign up if doesn't have account-->
     <TextView

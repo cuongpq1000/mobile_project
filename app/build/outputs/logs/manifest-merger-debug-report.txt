@@ -1,19 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-50:12
 MERGED from [androidx.databinding:viewbinding:7.2.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\2af5676da397193b5bd4a65e7147584b\transformed\viewbinding-7.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\4e7009f8db6c51cbd3f592ef84608551\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\949f3681d1b74c086207711bd9a4785f\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\81f7baf263babe253bfb6ec6eef71f8a\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\59f494be4c1b872e779312edb47ddc56\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\dafff758ab4a17b55654a40fa15e8c8b\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Cuong Pham\.gradle\caches\transforms-3\92eaf63659ff3e00b70f20beb3f9a798\transformed\fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\4e7009f8db6c51cbd3f592ef84608551\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\48e2c733af0f5be708ae54924d4d801a\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\28f8a79538c970190c5e4c60e0b5473b\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\1bc9d57ca0095c92a20df361a3266431\transformed\activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\b447924998acbac793a7a4327d9bf7aa\transformed\core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\949f3681d1b74c086207711bd9a4785f\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\81f7baf263babe253bfb6ec6eef71f8a\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Cuong Pham\.gradle\caches\transforms-3\008df910b729071b44fe5755c4b1144c\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\674aaccf2088ec4facd45123636116de\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\272098385ed9193397d43c090ff4e8e3\transformed\firebase-analytics-20.0.0\AndroidManifest.xml:2:1-9:12
@@ -73,7 +74,6 @@ MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Cuong Pham
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Cuong Pham\.gradle\caches\transforms-3\4db10a491624200bb2ccff1bdfb735da\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\469fb84589b5ec9d8fb78bf32f54803d\transformed\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Cuong Pham\.gradle\caches\transforms-3\76aeab6d2e3f72ce12dbdd18b40bdadb\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\59f494be4c1b872e779312edb47ddc56\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\7423ec0c2de7e285f5823981012247f1\transformed\firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Cuong Pham\.gradle\caches\transforms-3\d8d7fc518fce8e97423e78589b0b32e5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\daf19c81ff27f86e50cf27a8bb5876d7\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -86,22 +86,22 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Cuong Pham\.grad
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\e6b89dde701518b2680965778790099c\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\6e1441317e9c8f48d154e8858be6d65e\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\77a85813d59b05aae043ec65ab524cb2\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:4:5-40
 		INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml
 		INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml
-		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml
-		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:2:11-69
@@ -124,7 +124,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:
 	android:name
 		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:8:5-41:19
+ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:8:5-48:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\81f7baf263babe253bfb6ec6eef71f8a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\81f7baf263babe253bfb6ec6eef71f8a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Cuong Pham\.gradle\caches\transforms-3\008df910b729071b44fe5755c4b1144c\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -197,52 +197,74 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Cu
 		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:16:9-51
 	android:dataExtractionRules
 		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:10:9-65
+activity#com.example.myapplication.BudgetActivity
+ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:19:13-43
+activity#com.example.myapplication.MainScreenActivity
+ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:21:9-25:70
+	android:label
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:24:13-63
+	android:exported
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:25:13-67
+	android:name
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:22:13-47
 activity#com.example.myapplication.ProfileActivity
-ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:23:9-25:40
+ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:30:9-32:40
 	android:exported
-		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:25:13-37
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:24:13-44
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:31:13-44
 activity#com.example.myapplication.LoginActivity
-ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:26:9-28:40
+ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:33:9-35:40
 	android:exported
-		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:28:13-37
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:27:13-42
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:34:13-42
 activity#com.example.myapplication.SignUpActivity
-ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:29:9-31:40
+ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:36:9-38:40
 	android:exported
-		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:31:13-37
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:30:13-43
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:37:13-43
 activity#com.example.myapplication.splashScreenActivity
-ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:32:9-40:20
+ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:39:9-47:20
 	android:exported
-		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:34:13-36
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:41:13-36
 	android:name
-		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:33:13-49
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:40:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:35:13-39:29
+ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:42:13-46:29
 action#android.intent.action.MAIN
-ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:43:17-69
 	android:name
-		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:43:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:45:17-77
 	android:name
-		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml:45:27-74
 uses-sdk
 INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml
 INJECTED from E:\cs\cs\newProject\mobile_project\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.2.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\2af5676da397193b5bd4a65e7147584b\transformed\viewbinding-7.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:viewbinding:7.2.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\2af5676da397193b5bd4a65e7147584b\transformed\viewbinding-7.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\4e7009f8db6c51cbd3f592ef84608551\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\4e7009f8db6c51cbd3f592ef84608551\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\949f3681d1b74c086207711bd9a4785f\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\949f3681d1b74c086207711bd9a4785f\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\81f7baf263babe253bfb6ec6eef71f8a\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\81f7baf263babe253bfb6ec6eef71f8a\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\59f494be4c1b872e779312edb47ddc56\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\59f494be4c1b872e779312edb47ddc56\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\dafff758ab4a17b55654a40fa15e8c8b\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\dafff758ab4a17b55654a40fa15e8c8b\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Cuong Pham\.gradle\caches\transforms-3\92eaf63659ff3e00b70f20beb3f9a798\transformed\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Cuong Pham\.gradle\caches\transforms-3\92eaf63659ff3e00b70f20beb3f9a798\transformed\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\4e7009f8db6c51cbd3f592ef84608551\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\4e7009f8db6c51cbd3f592ef84608551\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\48e2c733af0f5be708ae54924d4d801a\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\48e2c733af0f5be708ae54924d4d801a\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\28f8a79538c970190c5e4c60e0b5473b\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
@@ -251,10 +273,6 @@ MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Cuong Pham\.gradle\c
 MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\1bc9d57ca0095c92a20df361a3266431\transformed\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\b447924998acbac793a7a4327d9bf7aa\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\b447924998acbac793a7a4327d9bf7aa\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\949f3681d1b74c086207711bd9a4785f\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Cuong Pham\.gradle\caches\transforms-3\949f3681d1b74c086207711bd9a4785f\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\81f7baf263babe253bfb6ec6eef71f8a\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\81f7baf263babe253bfb6ec6eef71f8a\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Cuong Pham\.gradle\caches\transforms-3\008df910b729071b44fe5755c4b1144c\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Cuong Pham\.gradle\caches\transforms-3\008df910b729071b44fe5755c4b1144c\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\674aaccf2088ec4facd45123636116de\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
@@ -373,8 +391,6 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Cuong Ph
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\469fb84589b5ec9d8fb78bf32f54803d\transformed\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Cuong Pham\.gradle\caches\transforms-3\76aeab6d2e3f72ce12dbdd18b40bdadb\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Cuong Pham\.gradle\caches\transforms-3\76aeab6d2e3f72ce12dbdd18b40bdadb\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\59f494be4c1b872e779312edb47ddc56\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\59f494be4c1b872e779312edb47ddc56\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\7423ec0c2de7e285f5823981012247f1\transformed\firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Cuong Pham\.gradle\caches\transforms-3\7423ec0c2de7e285f5823981012247f1\transformed\firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Cuong Pham\.gradle\caches\transforms-3\d8d7fc518fce8e97423e78589b0b32e5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41

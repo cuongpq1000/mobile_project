@@ -66,6 +66,7 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array items
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -1739,8 +1740,11 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable alltimes
 drawable avd_hide_password
 drawable avd_show_password
+drawable background
+drawable borders
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1749,6 +1753,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable budget
 drawable budget_icon
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -1776,6 +1781,8 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_add
+drawable ic_anaytic
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1794,6 +1801,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable month
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1817,7 +1825,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable setting
 drawable test_custom_background
+drawable today
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1825,6 +1835,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id FirstFragment
 id META
 id NO_DEBUG
 id SHIFT
@@ -1832,6 +1843,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id SecondFragment
 id TOP_END
 id TOP_START
 id accelerate
@@ -1868,6 +1880,8 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action_FirstFragment_to_SecondFragment
+id action_SecondFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1894,6 +1908,8 @@ id alertTitle
 id aligned
 id all
 id always
+id amount
+id analyticsCard
 id animateToEnd
 id animateToStart
 id arc
@@ -1915,8 +1931,11 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id budget
+id budgetCard
 id buttonPanel
 id cache_measures
+id cancel
 id cancel_button
 id center
 id center_horizontal
@@ -1990,6 +2009,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
 id fade
 id fill
 id fill_horizontal
@@ -2008,12 +2028,14 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
+id gridLayout
 id group_divider
 id grouping
 id groups
 id guideline
 id header_title
 id hideable
+id historyCard
 id home
 id homeAsUp
 id honorRequest
@@ -2028,6 +2050,7 @@ id info
 id invisible
 id inward
 id italic
+id item
 id item1
 id item2
 id item3
@@ -2072,6 +2095,8 @@ id material_value_index
 id message
 id middle
 id mini
+id month
+id monthCard
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -2104,6 +2129,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id nav_controller_view_tag
+id nav_graph
 id nav_host_fragment_container
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
@@ -2115,6 +2141,7 @@ id noAccountTv
 id noScroll
 id none
 id normal
+id note
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -2143,6 +2170,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recylerView
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2150,8 +2178,10 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id save
 id save_non_transition_alpha
 id save_overlay_view
+id saving
 id sawtooth
 id scale
 id screen
@@ -2173,6 +2203,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id settingCard
 id shortcut
 id showCustom
 id showHome
@@ -2187,6 +2218,7 @@ id snap
 id snapMargins
 id spacer
 id special_effects_controller_view_tag
+id spinner
 id spline
 id split_action_bar
 id spread
@@ -2207,6 +2239,7 @@ id stretch
 id submenuarrow
 id submit_area
 id tabMode
+id table
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2246,7 +2279,10 @@ id title
 id titleDividerNoCustom
 id titleLabelTv
 id title_template
+id today
+id todayCard
 id toggle
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -2344,7 +2380,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_budget
 layout activity_login
+layout activity_main_screen
 layout activity_profile
 layout activity_sign_up
 layout activity_splash_screen
@@ -2366,6 +2404,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout input
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2438,6 +2477,7 @@ menu example_menu
 menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
+navigation nav_graph
 plurals mtrl_badge_content_description
 raw keep
 string abc_action_bar_home_description
@@ -2580,6 +2620,7 @@ string project_id
 string search_menu_title
 string second_fragment_label
 string status_bar_notification_info_overflow
+string title_activity_main_screen
 string title_activity_splash_screen
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
