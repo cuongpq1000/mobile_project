@@ -26,6 +26,17 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
+            android:name="com.example.myapplication.AnalyticsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.MonthActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.TodayActivity"
+            android:exported="false"
+            android:label="@string/title_activity_today"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
             android:name="com.example.myapplication.BudgetActivity"
             android:exported="false" />
         <activity

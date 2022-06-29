@@ -47,8 +47,6 @@ class ProfileActivity : AppCompatActivity() {
                     else{
                         Log.d("Cuong Pham", uid)
                     }
-
-
                 }
 
                 override fun onCancelled(error: DatabaseError) {

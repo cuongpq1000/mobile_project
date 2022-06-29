@@ -24,4 +24,5 @@
         <item>Clothing</item>
         <item>Other</item>
     </string-array>
+    <string name="title_activity_today">TodayActivity</string>
 </resources>

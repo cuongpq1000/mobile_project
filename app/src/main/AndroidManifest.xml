@@ -16,6 +16,17 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".AnalyticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MonthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TodayActivity"
+            android:exported="false"
+            android:label="@string/title_activity_today"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
             android:name=".BudgetActivity"
             android:exported="false" />
         <activity

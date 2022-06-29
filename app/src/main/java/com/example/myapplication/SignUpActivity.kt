@@ -28,7 +28,7 @@ class SignUpActivity : AppCompatActivity() {
 
     //Firebase Database
     private lateinit var database: DatabaseReference
-
+    private lateinit var data: Data
     private var email = ""
     private var password = ""
     private var firstName = ""

@@ -36,6 +36,7 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="title_activity_main_screen">MainScreenActivity</string>
     <string name="title_activity_splash_screen">splashScreenActivity</string>
+    <string name="title_activity_today">TodayActivity</string>
     <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
