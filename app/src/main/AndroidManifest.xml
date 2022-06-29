@@ -16,13 +16,39 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".AnalyticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MonthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TodayActivity"
+            android:exported="false"
+            android:label="@string/title_activity_today"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
+            android:name=".BudgetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreenActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main_screen"
+            android:theme="@style/Theme.MyApplication.NoActionBar" /> <!-- <activity -->
+        <!-- android:name=".splashScreenActivity" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="@string/title_activity_splash_screen" -->
+        <!-- android:theme="@style/Theme.MyApplication.NoActionBar" /> -->
+        <activity
             android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".splashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

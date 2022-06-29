@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="items">
+        <item>Select item</item>
+        <item>Transportation</item>
+        <item>Tuition and fees</item>
+        <item>Groceries</item>
+        <item>Utilities</item>
+        <item>Entertainment</item>
+        <item>Clothing</item>
+        <item>Other</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
@@ -7,15 +17,26 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
     <string name="app_name">My Application</string>
     <string name="default_web_client_id" translatable="false">969996873688-v3mt0kgmdqv710au2usktoj4nqij0t3h.apps.googleusercontent.com</string>
+    <string name="first_fragment_label">First Fragment</string>
     <string name="gcm_defaultSenderId" translatable="false">969996873688</string>
     <string name="google_api_key" translatable="false">AIzaSyAcFzUycFottBbz0VS3IcMlwZI7MLKJQsQ</string>
     <string name="google_app_id" translatable="false">1:969996873688:android:c03882cf9fd83f3896ccad</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAcFzUycFottBbz0VS3IcMlwZI7MLKJQsQ</string>
     <string name="google_storage_bucket" translatable="false">final-project-49e72.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="next">Next</string>
     <string name="no_account"><b>Create new account</b></string>
+    <string name="previous">Previous</string>
     <string name="project_id" translatable="false">final-project-49e72</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_main_screen">MainScreenActivity</string>
+    <string name="title_activity_splash_screen">splashScreenActivity</string>
+    <string name="title_activity_today">TodayActivity</string>
     <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
@@ -29,4 +50,10 @@
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
         
     </style>
+    <style name="Theme.MyApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.MyApplication.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MyApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 </resources>
